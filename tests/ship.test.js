@@ -5,15 +5,14 @@ describe("ship",()=>{
 
     beforeEach(()=>{
         ship=new Ship(3);
-        console.log("ship created with length:",ship.getLength);
     })
 
-     test("hit() increases hits ",()=>{
+     test("hit() increments hit count ",()=>{
          ship.hit();
          expect(ship. getHits).toBe(1);
      })
 
-     test("isSunk()",()=>{
+     test("isSunk()  return true wwhen hits >=length",()=>{
            ship.hit();
            ship.hit();
            ship.hit();
@@ -22,6 +21,11 @@ describe("ship",()=>{
 
      test("throw error for invalid length",()=>{
            expect(()=>new Ship(0)).toThrow("Length must be greater than 0");
+     })
+
+     test("setPlacementCoordinates()  stores correct coordiantes/positions",()=>{
+         ship.setPlacementCoordinates(0,0,'vertical') ;
+        expect(ship.getCoordinates).toEqual([{x:0,y:0},{x:1,y:0},{x:2,y:0}])
      })
 
    

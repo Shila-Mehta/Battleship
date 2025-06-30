@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch-all  --verbose  --coverage",
     "start": "npx webpack serve"
   },
   "keywords": [],
