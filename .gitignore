@@ -1,8 +1,9 @@
 # Node modules
 node_modules/
 
-# Ignore built output
+# Build folders
 dist/
+build/
 
 # Logs
 npm-debug.log*
