@@ -1,0 +1,51 @@
+
+.guide-book {
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 15rem;
+  z-index: 150;
+}
+
+.guide-container {
+  position: fixed;
+  top: 60px;
+  right: 6rem;
+  max-width: 320px;
+  background-color: var(--color-legend-bg, #fff);
+  border: 1px solid  var(--color-legend-box-border);
+  padding: 1rem;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color:var(--color-text);
+}
+
+.guide-container.hidden {
+  display: none;
+}
+
+.guide-container h3 {
+  text-align: center;
+}
+
+.legend-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.legend-list li {
+  margin-bottom: 0.5rem;
+}
+
+.legend-list kbd {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}

@@ -1,2 +1,40 @@
-"node_modules" 
-node_modules
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables (if using them)
+.env
+
+# Coverage reports (if using coverage testing)
+coverage/
+
+# Parcel cache (if ever used)
+.cache/
+
+# Mac folder metadata
+*.DS_Store
+
+# Optional: Test snapshots
+__snapshots__/
+
+# Optional: system or deployment files
+*.local
+*.log

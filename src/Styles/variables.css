@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  /* --color-bg: rgb(96, 168, 250);
+  --color-text: #0a2342;
+  --color-player-turn-bg: #ec7171;
+  --color-player-turn-text: white;
+  --color-board-bg: lightgray;
+  --color-cell-bg: #27547a;
+  --color-cell-hover: #476f91;
+  --color-ship: #664bdd;
+  --color-hit: red;
+  --color-miss: gray;
+  --color-shipyard-bg: #eee;
+  --color-ship-bg: #444;
+  --color-ship-text: white;
+  --color-play-btn: #28a745;
+  --color-play-btn-hover: #218838;
+  --color-disabled-btn: rgb(136, 134, 134);
+  --color-highlight: rgba(0, 255, 0, 0.4);
+  --color-legend-border: #ccc;
+  --color-legend-bg: white;
+  --color-legend-box-border: #aaa;
+  --color-legend-empty: lightblue;
+  --color-legend-btn-bg: #444;
+  --color-legend-btn-hover: #222;
+  --color-legend-btn-text: white; */
+
+
+   /* randomly generted  colors  dynamically  */
+
+
+  /* Fonts */
+  --font-primary: 'Arial', sans-serif;
+  --font-header: 'Orbitron', sans-serif;
+
+  /* Sizes */
+  --cell-size: 35px;
+  --board-gap: 5px;
+  --board-padding: 5px;
+  --board-border-radius: 8px;
+  --cell-border-radius: 4px;
+  --btn-border-radius: 10px;
+  --ship-border-radius: 6px;
+
+  /* Shadows */
+  --box-shadow-board: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --box-shadow-ship: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  --box-shadow-legend: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --box-shadow-toggle: 0 0 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,65 @@
+.GameBoard {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color:var(--color-text);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-size: clamp(0.5rem, 3vw, 1.5rem);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  grid-template-rows: repeat(10, 35px);
+  gap: var(--board-gap);
+  background-color: var( --color-board-bg);
+  box-shadow: 0 4px 12px var(--box-shadow-board);
+  border-radius: var(--board-border-radius);
+  padding: 5px;
+}
+
+/* Cell styles */
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  cursor: pointer;
+  background-color: var(--color-cell-bg);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.cell:hover {
+  background-color:var(--color-cell-hover);
+}
+
+.cell.ship {
+  background-color:var(--color-ship);
+  border: 1px solid rgb(22, 22, 22);
+}
+
+.cell.hit {
+  background-color: var(--color-hit);
+}
+
+.cell.miss {
+  background-color: var(--color-miss);
+}
+
+
+
+.cell.highlight {
+  background-color: var(--color-highlight);
+}

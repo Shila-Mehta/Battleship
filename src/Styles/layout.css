@@ -1,0 +1,52 @@
+.header .game-title {
+  font-family: var( --font-header);
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-family: 'Orbitron', sans-serif;
+  color:var(--color-text);
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 1s ease-out forwards;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.turn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-bottom: 2.5rem;
+}
+
+.header .player-turn {
+  /* background-color:var(--color-player-turn-bg); */
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 22px;
+  border: 2px dashed var(--color-player-turn-bg);
+  /* color: var(--color-player-turn-text); */
+  color: var(--color-player-turn-bg);
+  min-width:300px;
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
