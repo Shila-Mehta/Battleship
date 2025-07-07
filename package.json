@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "jest --watch-all  --verbose  --coverage",
-    "build":"npx webpack",
+    "build": "npx webpack",
     "start": "npx webpack serve"
   },
   "keywords": [],
