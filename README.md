@@ -94,7 +94,7 @@ bash
 Copy
 Edit
 # Clone the repo
-git clone https://shila-mehta.github.io/Battleship/
+git clone https://github.com/Shila-Mehta/Battleship.git
 cd battleship
 
 # Install dependencies
