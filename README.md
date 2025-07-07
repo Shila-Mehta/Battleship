@@ -1,8 +1,11 @@
 🚢 Battleship
+
 A feature-rich, browser-based Battleship game built with modern JavaScript, bundled with Webpack, and fully tested using Jest. This project highlights my ability to design modular architecture, build interactive drag-and-drop UIs, and enhance user experience with dynamic themes, sound, and smart AI.
 
 🔗 Live Demo
+
 👉 Play the Game Now
+
 https://shila-mehta.github.io/Battleship/
 
 🧩 Highlights
@@ -57,6 +60,7 @@ Game Over popup with a blurred background and restart button
 Live message bar shows current turn and game result
 
 🎨 Visual Legend
+
 🟥 Hit
 
 ⬜ Miss
@@ -66,6 +70,7 @@ Live message bar shows current turn and game result
 🟪 Ship
 
 🧪 Testing
+
 Built using Test-Driven Development (TDD)
 
 Unit tests written with Jest
@@ -79,6 +84,7 @@ Gameboard
 Player, HumanPlayer, AIPlayer
 
 ⚙️ Tech Stack
+
 JavaScript (ES6 Modules)
 
 Webpack
@@ -90,23 +96,27 @@ Jest
 HTML5 + CSS3 (with CSS Variables and Modular Structure)
 
 🚀 Getting Started
-bash
-Copy
-Edit
+
 # Clone the repo
+
 git clone https://github.com/Shila-Mehta/Battleship.git
+
 cd battleship
 
 # Install dependencies
+
 npm install
 
 # Start the development server
+
 npm start
 
 # Run tests
+
 npm test
 
 🔥 Why This Project?
+
 This game isn’t just about fun — it demonstrates:
 
 DOM manipulation without frameworks
@@ -122,11 +132,14 @@ Thoughtful UI/UX features: animations, sounds, visual feedback
 Test-Driven Development practices with complete unit testing
 
 👩‍💻 About Me
+
 I'm a front-end developer passionate about building polished, interactive web applications with a focus on user experience, performance, and clean architecture.
 
 📁 View more of my work on my portfolio
+
 💼 Connect with me on LinkedIn
 
 📄 License
+
 This project is licensed under the MIT License.
 
