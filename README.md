@@ -3,7 +3,7 @@ A feature-rich, browser-based Battleship game built with modern JavaScript, bund
 
 🔗 Live Demo
 👉 Play the Game Now
-(Deployed via GitHub Pages or Netlify — replace with your actual URL)
+https://shila-mehta.github.io/Battleship/
 
 🧩 Highlights
 ✅ Modular JavaScript Architecture
@@ -94,7 +94,7 @@ bash
 Copy
 Edit
 # Clone the repo
-git clone https://github.com/your-username/battleship.git
+git clone https://shila-mehta.github.io/Battleship/
 cd battleship
 
 # Install dependencies
@@ -105,20 +105,7 @@ npm start
 
 # Run tests
 npm test
-📁 Project Structure
-graphql
-Copy
-Edit
-src/
-├── assets/           # Images, icons, audio files
-├── Classes/          # Core game classes (Ship, Gameboard, Game)
-├── Components/       # Reusable UI components and interaction handlers
-├── Data/             # Static game-related data and constants
-├── Players/          # Player logic: Player, HumanPlayer, AIPlayer
-├── Services/         # Game service, sound service, and utilities
-├── styles/           # Modular CSS files (themes, layout, variables)
-├── index.js          # Application entry point
-└── index.html        # Main HTML template
+
 🔥 Why This Project?
 This game isn’t just about fun — it demonstrates:
 
