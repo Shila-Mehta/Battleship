@@ -12,19 +12,35 @@
     <div class="header">
       <button class="legend-toggle"  title="Game Legend">?</button>
       <div class="legend-panel hidden">
-        <h3>Legend</h3>
         <div><span class="legend-box legend-hit"></span>Hit</div>
         <div><span class="legend-box legend-miss" ></span>Miss</div>
         <div><span class="legend-box legend-ship"></span>Ship</div>
         <div><span class="legend-box legend-empty"></span>Empty</div>
+        
       </div>
 
        <div class="theme-toggle-container">
         <button id="theme-toggle"  aria-label="Toggle Theme">🌙</button>
        </div>
+
+
+        <button class="guide-book">📖 </button>
+        <div class="guide-container  hidden">
+          <h3>How to Play</h3>
+        <ul class="legend-list">
+          <li><strong>🛳️Place Ships:</strong> Drag them from the shipyard onto the board.</li>
+          <li><strong>🔁Rotate Ship:</strong> Press <kbd>R</kbd> while dragging a ship to rotate it.</li>
+          <li><strong>🎯Attack:</strong> Click on enemy board cells to attack.</li>
+        </ul>
+        </div>
+        
        
+
         <h1 class="game-title">BATTLESHIP</h1>
-            <div class="player-turn">human</div>
+             <div class="turn-container">
+              <div class="player-turn">human turn</div>
+             </div>
+            
         </div>
     </div>
 
@@ -46,6 +62,15 @@
     </div>
 
 
+    <div class="gameover-overlay hidden"  id="gameoverPopup">
+        <div class="gameover-popup">
+          <h2>🎯 Game Over!</h2>
+          <p>Thanks for playing</p>
+          <button class="restart-btn">Start New Game</button>
+        </div>
+      </div>
+
+
     <div class="placement-options">
       <button class="btn-default">Use Default ships</button >
       <button  class="btn-manual">Drag Drop Ships</button>
@@ -62,6 +87,9 @@
 
 
       <button class="play-btn">PLAY</button>
+
+
+      
 
     </div>
    
