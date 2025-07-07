@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# Ignore built output
+dist/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
