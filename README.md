@@ -4,7 +4,6 @@ A feature-rich, browser-based Battleship game built with modern JavaScript, bund
 
 Project screen shots:
 
-![alt text](<shila-mehta.github.io_Battleship_ (2).png>)
 ![alt text](<shila-mehta.github.io_Battleship_ (3).png>)
 ![alt text](shila-mehta.github.io_Battleship_.png)
 ![alt text](<shila-mehta.github.io_Battleship_ (4).png>)
