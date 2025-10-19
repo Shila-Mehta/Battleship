@@ -1,11 +1,21 @@
 🚢 Battleship
 A feature-rich, browser-based Battleship game built with modern JavaScript, bundled with Webpack, and fully tested using Jest. This project highlights my ability to design modular architecture, build interactive drag-and-drop UIs, and enhance user experience with dynamic themes, sound, and smart AI.
 
-🔗 Live Demo
-👉 Play the Game Now
-(Deployed via GitHub Pages or Netlify — replace with your actual URL)
+Project screen shots:
+
+![alt text](<shila-mehta.github.io_Battleship_ (2).png>)
+![alt text](<shila-mehta.github.io_Battleship_ (3).png>)
+![alt text](shila-mehta.github.io_Battleship_.png)
+![alt text](<shila-mehta.github.io_Battleship_ (4).png>)
+![alt text](<shila-mehta.github.io_Battleship_ (5).png>)
+![alt text](<shila-mehta.github.io_Battleship_ (6).png>)
+![alt text](<shila-mehta.github.io_Battleship_ (7).png>)
+🔗 Live Demo    👉 Play the Game Now
+
+https://shila-mehta.github.io/Battleship/
 
 🧩 Highlights
+
 ✅ Modular JavaScript Architecture
 
 ✅ AI Opponent with Easy & Smart Modes
@@ -21,6 +31,7 @@ A feature-rich, browser-based Battleship game built with modern JavaScript, bund
 ✅ Responsive UI & Game Over Overlay
 
 🎮 Gameplay Features
+
 🎯 AI Opponent
 Easy Mode: Random valid attacks
 
@@ -90,9 +101,7 @@ Jest
 HTML5 + CSS3 (with CSS Variables and Modular Structure)
 
 🚀 Getting Started
-bash
-Copy
-Edit
+
 # Clone the repo
 git clone https://github.com/your-username/battleship.git
 cd battleship
@@ -105,20 +114,64 @@ npm start
 
 # Run tests
 npm test
+
+
 📁 Project Structure
-graphql
-Copy
-Edit
-src/
-├── assets/           # Images, icons, audio files
-├── Classes/          # Core game classes (Ship, Gameboard, Game)
-├── Components/       # Reusable UI components and interaction handlers
-├── Data/             # Static game-related data and constants
-├── Players/          # Player logic: Player, HumanPlayer, AIPlayer
-├── Services/         # Game service, sound service, and utilities
-├── styles/           # Modular CSS files (themes, layout, variables)
-├── index.js          # Application entry point
-└── index.html        # Main HTML template
+```
+└── 📁Battleship
+    └── 📁src
+        └── 📁assets
+            └── 📁sounds
+                ├── hit.wav
+                ├── play.mp3
+        └── 📁Classes
+            ├── Game.js
+            ├── Gameboard.js
+            ├── ship.js
+        └── 📁Components
+            ├── createBoard.js
+            ├── dragDropContaroller.js
+            ├── handleAIAttack.js
+            ├── handleHumanAttack.js
+            ├── ThemeManager.js
+        └── 📁Data
+            ├── cellStates.js
+            ├── ColorThemes.js
+            ├── dragState.js
+        └── 📁players
+            ├── AIPlayer.js
+            ├── HumanPlayer.js
+            ├── Player.js
+        └── 📁Services
+            ├── GameServices.js
+            ├── SoundService.js
+        └── 📁Styles
+            ├── base.css
+            ├── board.css
+            ├── buttons.css
+            ├── guide.css
+            ├── layout.css
+            ├── legend.css
+            ├── main.css
+            ├── popup.css
+            ├── shipyard.css
+            ├── variables.css
+        ├── index.js
+        ├── template.html
+    └── 📁tests
+        ├── AIPlayer.test.js
+        ├── Game.test.js
+        ├── GameBoard.test.js
+        ├── HumanPlayer.test.js
+        ├── Player.test.js
+        ├── ship.test.js
+    ├── .gitignore
+    ├── babel.config.json
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── webpack.config.js
+```
 🔥 Why This Project?
 This game isn’t just about fun — it demonstrates:
 
@@ -137,8 +190,9 @@ Test-Driven Development practices with complete unit testing
 👩‍💻 About Me
 I'm a front-end developer passionate about building polished, interactive web applications with a focus on user experience, performance, and clean architecture.
 
-📁 View more of my work on my portfolio
-💼 Connect with me on LinkedIn
+📁 View more of my work on my portfolio(https://nimra-react-portfolio.netlify.app/)
+
+💼 Connect with me on LinkedIn (https://www.linkedin.com/feed/)
 
 📄 License
 This project is licensed under the MIT License.
